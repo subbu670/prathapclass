@@ -1,0 +1,79 @@
+Scenario: This scenario is to verify Secure Login Header is available
+    Given as an user I want to launch Firefox browser
+    When browser is launched verify home page is displayed
+    Then verify Secure Login header file is present or not 
+    
+Scenario: This scenario is to verify Login button is enabled when enter username and password
+    Given as an user I want to launch Firefox browser
+    When browser is launched verify home page is displayed
+    When enter username and password
+    Then verify Login button is enabled
+    
+Scenario: This scenario is to verify Personal Banking Header is available
+    Given as an user I want to launch Firefox browser
+    When browser is launched verify home page is displayed
+    Then verify Personal Banking header file is present or not 
+    
+Scenario: This scenario is to verify Features Header is available
+    Given as an user I want to launch Firefox browser
+    When browser is launched verify home page is displayed
+    Then verify Features header file is present or not 
+    
+Scenario: This scenario is to verify Testing Masters logo is available in Home page
+    Given as an user I want to launch Firefox browser
+    When browser is launched verify home page is displayed
+    Then verify Testing Masters logo is available
+    
+Scenario: This scenario is to verify the links available in Home page
+    Given as an user I want to launch Firefox browser
+    When browser is launched verify home page is displayed
+    Then verify the links available in the home page
+    And verify the hand icon display when place cursor on links
+    
+Scenario: This scenario is to verify the links available in Home page
+    Given as an user I want to launch Firefox browser
+    When browser is launched verify home page is displayed
+    Then verify any links available
+    And verify the hand icon display when place cursor on links
+    
+Scenario: This scenario is to verify the copyright message available in Home page
+    Given as an user I want to launch Firefox browser
+    When browser is launched verify home page is displayed
+    Then verify the copyright message available in the home page
+    
+Scenario: This scenario is to verify the input fields in Login window screen
+    Given as an user I want to launch Firefox browser
+    When browser is launched verify home page is displayed
+    Then verify the input fields for Username and Password available in the home page
+    
+Scenario: This scenario is to verify the input for Password field in Login window
+    Given as an user I want to launch Firefox browser
+    When browser is launched verify home page is displayed
+    When user typing the password
+    Then verify the input for Password showing asteriks
+    
+Scenario: This scenario is to verify the Login button without giving inputs to username and password	
+    Given as an user I want to launch Firefox browser
+    When browser is launched verify home page is displayed
+    Then verify by clicking on login button without entering username and password
+    
+Scenario: This scenario is to verify the Login button by giving username but not giving any password	
+    Given as an user I want to launch Firefox browser
+    When browser is launched verify home page is displayed
+    Then verify by clicking on login button by entering username and not giving password
+    
+Scenario: This scenario is to verify the Login button without entering username but giving any password	
+    Given as an user I want to launch Firefox browser
+    When browser is launched verify home page is displayed
+    Then verify by clicking on login button by entering password but not giving input in username field
+    
+Scenario: This scenario is to verify the Login button by entering correct username and correct password	
+    Given as an user I want to launch Firefox browser
+    When browser is launched verify home page is displayed
+    Then verify by clicking on login button by entering correct username and correct password
+    
+Scenario: This scenario is to verify the Login button by entering correct username and correct password	
+    Given as an user I want to launch Firefox browser
+    When browser is launched verify home page is displayed
+    Then verify by clicking on login button by entering incorrect username and incorrect password
+    
